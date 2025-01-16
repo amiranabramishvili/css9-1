@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.StartDiv {
+    display: flex;
+    gap: 32px;
+}
+
+.ColumnBarDiv {
+    width: 296px;
+    height: 1134px;
+    flex-shrink: 0;
+    background: #14171F;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding: 24px;
+}
+
+.LogoDiv {
+    display: flex;
+    width: 248px;
+    padding: 0px 16px 16px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    border-bottom: 1px solid #3D414B;
+}
+
+.AvatarDiv {
+    display: flex;
+    width: 248px;
+    padding: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #7D70BD;
+    border-bottom: 1px solid #7D70BD;
+}
+
+.AvatarRowDiv {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.AndrioCol {
+    display: flex;
+    flex-direction: column;
+}
+
+.AndrioCol p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.AndrioCol span {
+    color: #929699;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.MenuBarCol {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.MenuBarRow {
+    display: flex;
+    align-items: flex-end;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.MenuBarRow p {
+    color: #929699;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.AnalyticDiv {
+    display: flex;
+    width: 248px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px 0;
+    border-top: 1px solid #3D414B;
+    border-bottom: 1px solid #3D414B;
+}
+
+.AnalyticDivCol {
+    display: flex;
+    width: 137px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.MainColumnDiv {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.ButtonsDiv {
+    display: flex;
+    width: 253px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 8px;
+    border: 1px solid #7B62FF;
+}
+
+.ButtonsDiv button {
+    color: #7B62FF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    background: #14171F;
+    border: none;
+}
+
+.HeaderBarDiv {
+    display: flex;
+    width: 1080px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.LearningDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.LearningDiv p {
+    color: #2F2F2F;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.RowMainDiv {
+    padding: 24px;
+}
