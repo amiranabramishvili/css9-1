@@ -1,0 +1,753 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainDivWrapper{
+    display: flex;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .mainDivWrapper{
+        padding: 32px;
+    }
+}
+@media screen and (max-width: 767px){
+    .mainDivWrapper{
+        width: 100%;
+    }
+}
+
+.leftSideBarMainDiv{
+    display: flex;
+    width: 100%;
+    max-width: 296px;
+    background-color: #14171F;
+    padding: 24px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .leftSideBarMainDiv{
+        display: none;
+    }
+}
+@media screen and (max-width: 767px){
+    .leftSideBarMainDiv{
+        display: none;
+    }
+}
+
+.burgerLogo{
+    display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .burgerLogo{
+        display: flex;
+    }
+}
+@media screen and (max-width: 767px) {
+    .burgerLogo{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .burgerLogo{
+        display: flex;
+    }
+}
+.sideBarDIvWrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 48px;
+}
+
+.mainContentDivWrapper{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    width: 100%;
+    padding: 32px;
+}
+@media screen and(min-width: 768px) and (max-wodth: 1024px){
+    .mainContentDivWrapper{
+        width: 100%;
+        max-width: 768px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .mainContentDivWrapper{
+        padding: 12px 16px;
+    }
+}
+
+.mainContentDiv{
+    display: flex;
+    width: 100%;
+    max-width: 1144px;
+    flex-direction: column;
+    gap: 32px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .mainContentDiv{
+        gap: 24px;
+        width: 100%;
+        max-width: 768px;
+    }
+}
+.mainLogoDiv{
+    padding-bottom: 16px;
+    border-bottom: 1px solid #3D414B;
+}
+.richardDiv{
+    padding: 12px;
+    border-top: 1px solid #7D70BD;
+    border-bottom: 1px solid #7D70BD;
+    display: flex;
+    align-items: center;
+    width: 248px;
+    justify-content: space-between;
+}
+.richardMainDiv{
+    display: flex;
+    gap: 8px;
+}
+.richardTextsDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.whiteText{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+.greyText{
+    color: #929699;
+    font-size: 14px;
+}
+.navigationDiv{
+    display: flex;
+    gap: 20px;    
+    flex-direction: column;
+}
+.navMiniDIvs{
+    display: flex;
+    gap: 12px;
+}
+.greyBiggerText{
+    color: #929699;
+    font-size: 16px;
+}
+.miniDivNav{
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0px;
+    gap: 20px;
+    border-top: 1px solid #929699;
+    border-bottom: 1px solid #929699;
+}
+.settingsFrame:hover{
+    background-color: purple;
+}
+.settingsFrame{
+    display: flex;
+    width: 253px;
+    border-radius: 8px;
+    justify-content: center;
+    border: 1px solid #7B62FF;
+    padding: 12px 24px;
+    align-items: center;
+}
+.settingsDivWrapper{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+a{
+    text-decoration-line: none ;
+}
+.purpleText{
+    color: #7B62FF;
+    font-size: 16px;
+}
+
+.headerNavBar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .headerNavBar{
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 767px) {
+    .headerNavBar{
+        justify-content: space-between;
+    }
+}
+.navigationTexts{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.blackText{
+    font-size: 16px;
+    color: #2F2F2F;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .blackText{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .blackText{
+        font-size: 12px;
+    }
+}
+.navBarFramesDiv{
+    display: flex;
+    gap: 10px;
+}
+
+.topHeaderMainFrame{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1080px;
+    justify-content: space-between;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .topHeaderMainFrame{
+        gap: 45px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .topHeaderMainFrame{
+        flex-direction: column;
+        gap: 12px;
+        
+    }
+}
+button{
+    border: none;
+    background-color: transparent;
+    max-width: 144px;
+}
+.blackTextSmaller{
+    color: #2F2F2F;
+    font-size: 14px;
+}
+@media screen and (max-width: 767px) {
+    .blackTextSmaller{
+        font-size: 12px;
+    }
+}
+.whiteTextSmaller{
+    color: #FFF;
+    font-size: 14px;
+}
+.greyFrame{
+    padding: 8px 12px;
+    border-radius: 50px;
+    border: 1px solid #C7C7C7;
+    background-color: #F7F7F7;
+}
+@media screen and (max-width: 767px) {
+    .greyFrame{
+        padding: 4px 8px;
+    }
+}
+.onlyGreyFrame{
+    padding: 8px 12px;
+    border-radius: 50px;
+    border: 1px solid #C7C7C7;
+}
+@media screen and (max-width: 767px) {
+    .onlyGreyFrame{
+        padding: 4px 8px;
+    }
+}
+.onlyGreyFrame:hover{
+    background-color: purple;
+}
+.numberInput:hover{
+    border-radius: 8px;
+    border: 1px solid #7B62FF;
+    background-color: #E6E1FF;
+    box-shadow: 0px 4px 4px 0px rgba(123, 98, 255, 0.25);
+}
+.backgroundMainImg{
+    width: 100%;
+    max-width: 1080px;
+    background-repeat: no-repeat;
+    height: 228px;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    padding: 66px 0px 66px 40px;
+    background-image: url("Images/mainImg.svg");
+    background-size: cover;
+    margin-bottom: 32px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .backgroundMainImg{
+        background-image: url("images/backgroundSecondImg.svg");
+        width: 100%;
+        height: 228px;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .backgroundMainImg{
+        background-image: url("images/thirdsBackImg.svg");
+        background-size: cover;
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 220px;
+    }
+}
+.blackBigText{
+    color: #2F2F2F;
+    font-size: 40px;
+    width: 416px;
+    font-weight: 600;
+}
+@media screen and (max-width: 767px) {
+    .blackBigText{
+        font-size: 24px;
+    }
+}
+.miniFramesDiv{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .miniFramesDiv{
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 608px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .miniFramesDiv{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
+.black{
+    background-color: #14171F;
+}
+.personalInfromationMainDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 700px;
+    gap: 22px;
+    border-radius: 16px;
+    border: 1px solid #C7C7C7;
+    padding: 24px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .personalInfromationMainDiv{
+        width: 100%;
+        min-width: 768px
+    }
+}
+@media screen and (max-width: 767px) {
+    .personalInfromationMainDiv{
+        padding: 24px 16px;
+    }
+}
+.informationTextsDiv{
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    gap: 2px;
+}
+@media screen and (max-width: 767px) {
+    .informationTextsDiv{
+        width: 100%;
+    }
+}
+.blackTextNorm{
+    color: #14171F;
+    font-size: 16px;
+    font-weight: 500;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+.naemeEmailDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+.emailsInputSWrapper{
+    display: flex;
+    gap: 16px;
+}
+@media screen and (max-width: 767px) {
+    .emailsInputSWrapper{
+        flex-direction: column;
+    }
+}
+.fullNameDiv{
+    gap: 8px;
+    width: 100%;
+    max-width: 327px;
+    display: flex;
+    flex-direction: column;
+}
+.emailDiv{
+    width: 100%;
+    max-width: 327px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.nameInput:hover{
+    border-radius: 8px;
+    border: 1px solid #7B62FF;
+    background-color: #E6E1FF;
+    box-shadow: 0px 4px 4px 0px rgba(123, 98, 255, 0.25);
+}
+.nameInput{
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background-color: #F9FBFC;
+}
+.numberInput{
+    width: 250px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background-color: #F9FBFC;
+}
+@media screen and (max-width: 767px) {
+    .numberInput{
+        width: 100%;
+    }
+}
+.numberFramesDiv{
+    display: flex;
+    gap: 8px;
+    width: 100%;
+}
+.blackNumberFrame{
+    width: 68px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background-color: #14171F;
+}
+::placeholder{
+    color: #666;
+    font-size: 14px;
+}
+.saveButtonDiv{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.saveButton{
+    border-radius: 8px;
+    background: #7F56D9;
+    padding: 10px 24px;
+}
+.mainContainerDiv{
+    display: flex;
+    width: 100%;
+    gap: 32px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .mainContainerDiv{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .mainContainerDiv{
+        flex-direction: column;
+    }
+}
+.firstColumnFrames{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 32px;
+    max-width: 702px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .firstColumnFrames{
+        order: 2;
+        width: 100%;
+        min-width: 768px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .firstColumnFrames{
+        flex-direction: column;
+    }
+}
+.secondPersonalInformationMainDiv{
+    display: flex;
+    width: 100%;
+    gap: 24px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .secondPersonalInformationMainDiv{
+        min-width: 768px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .secondPersonalInformationMainDiv{
+        flex-direction: column;
+    }
+}
+.personalInformationSecondDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 432px;
+    gap: 22px;
+    padding: 24px 24px 30px 24px;
+    border-radius: 16px;
+    border: 1px solid #C7C7C7;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .personalInformationSecondDiv{
+        flex-grow: 1;
+        min-width: 434px;
+        padding: 24px 16px;
+    }
+}
+.apartmentDiv{
+    display: flex;
+    width: 100%;
+    gap: 24px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .apartmentDiv{
+        border-radius: 12px;
+        background: #F9FBFC;
+        padding: 16px;
+        width: 100%;
+        max-width: 408px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .apartmentDiv{
+        flex-direction: column;
+    }
+}
+.miniApartmentDivs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+.apartmentTextsDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.singleApartmentDiv{
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+}
+.logoEdit:hover{
+    background-color: lightgoldenrodyellow;
+}
+    
+.additionalInformationDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    max-width: 246px;
+    padding: 28px 16px 25px 16px;
+    border-radius: 16px;
+    border: 1px solid #C7C7C7;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .additionalInformationDiv{
+        flex-grow: 1;
+        min-width: 246px;
+        padding: 24px 16px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .additionalInformationDiv{
+        width: 100%;
+        max-width: 767px;
+    }
+}
+.additionalInfoDiv{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.resumeDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+.bold{
+    font-weight: 800px;
+}
+.additionalLinksDiv{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.additionalLinksDivMain{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+.socailsSelectFrame{
+    width: 122px;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background-color: #F9FBFC;
+    padding: 12px 16px;
+}
+@media screen and (max-width: 767px) {
+    .socailsSelectFrame{
+        width: 100%;
+    }
+}
+.httpsInput{
+    width: 84px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background-color: #F9FBFC;
+}
+@media screen and (max-width: 767px) {
+    .httpsInput{
+        width: 100%;
+        padding: 8px 12px;
+    }
+}
+.rightAvatarInformationDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 346px;
+    border-radius: 16px;
+    background-color: #14171F;
+    padding: 16px;
+    gap: 12px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .rightAvatarInformationDiv{
+        width: 100%;
+        min-width: 768px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .rightAvatarInformationDiv{
+        order: -3;
+        width: 100%;
+        max-width: 767px;
+    }
+}
+.andrioRichardDiv, .locationDiv, .aboutDiv{
+    padding: 16px;
+    width: 100%;
+    background-color: #FFF;
+    border-radius: 16px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .andrioRichardDiv{
+        width: 100%;
+    }
+}
+.avatarMainDiv{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.editAndOtherIconDIv{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+.andrioName{
+    display: flex;
+    width: 100%;
+    color: #2F2F2F;
+    font-size: 24px;
+    font-weight: 500;
+    justify-content: center;
+    margin-top: 8px;
+}
+.AndrioFrames{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 15px;
+    margin-top: 10px;
+}
+.greyFFrame{
+    border-radius: 50px;
+    border: 1px solid #C7C7C7;
+    padding: 8px 12px;
+    flex: 1;
+}
+.greyFFrame:hover{
+    border-radius: 8px;
+    border: 1px solid #7B62FF;
+    background-color: #E6E1FF;
+    box-shadow: 0px 4px 4px 0px rgba(123, 98, 255, 0.25);
+}
+.locationDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.locationTextsDiv{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.locationSelect{
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background-color: #F9FBFC;
+}
+.textFrameDiv{
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+}
